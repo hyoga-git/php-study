@@ -182,12 +182,37 @@ echo "hello0".print_r($name)."<br>";
     $human1 ->eat();
     $human1->walk();
 
+function phpF($one,$two){
+    $avg=10;
+    $avg=$one+$two;
+    return $avg;
+}
+echo phpF(5,39);
+// returnは値を再度代入しているだけ　仮にreturnがない場合だとどうなるのか
 
+function phpFF($one,$two){
+    $avvg=10;
+    $avvg=$one+$two;
+    echo "zzzzzzzz".$avvg;
+
+}
+phpFF(3,4);
+// ほぼおなじになる　returnを使用することで外部からでも利用可能になる　echoはそれが出来ない
     ?>
 
 </section>
 
+<section class="six">
+ <h3>SIX</h3>
 
+
+
+
+
+
+
+
+</section>
 
 
 
